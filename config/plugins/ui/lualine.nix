@@ -23,10 +23,10 @@ in
         theme = {
           normal = {
             a = {
-              bg = "NONE";
-              fg = "#DCA561";
+              bg = "#DCA561";
+              fg = "#0D0C0C";
               gui = "bold";
-            };
+            }; # gold
             b = {
               bg = "NONE";
               fg = "#C5C9C5";
@@ -38,10 +38,10 @@ in
           };
           insert = {
             a = {
-              bg = "NONE";
-              fg = "#7AA89F";
+              bg = "#7AA89F";
+              fg = "#0D0C0C";
               gui = "bold";
-            };
+            }; # aqua
             b = {
               bg = "NONE";
               fg = "#C5C9C5";
@@ -53,10 +53,10 @@ in
           };
           visual = {
             a = {
-              bg = "NONE";
-              fg = "#9CABCA";
+              bg = "#9CABCA";
+              fg = "#0D0C0C";
               gui = "bold";
-            };
+            }; # blue
             b = {
               bg = "NONE";
               fg = "#C5C9C5";
@@ -68,10 +68,10 @@ in
           };
           replace = {
             a = {
-              bg = "NONE";
-              fg = "#E46876";
+              bg = "#E46876";
+              fg = "#0D0C0C";
               gui = "bold";
-            };
+            }; # red
             b = {
               bg = "NONE";
               fg = "#C5C9C5";
