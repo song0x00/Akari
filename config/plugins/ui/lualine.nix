@@ -20,6 +20,82 @@ in
     settings = {
       options = {
         always_divide_middle = true;
+        theme = {
+          normal = {
+            a = {
+              bg = "NONE";
+              fg = "#DCA561";
+              gui = "bold";
+            };
+            b = {
+              bg = "NONE";
+              fg = "#C5C9C5";
+            };
+            c = {
+              bg = "NONE";
+              fg = "#C5C9C5";
+            };
+          };
+          insert = {
+            a = {
+              bg = "NONE";
+              fg = "#7AA89F";
+              gui = "bold";
+            };
+            b = {
+              bg = "NONE";
+              fg = "#C5C9C5";
+            };
+            c = {
+              bg = "NONE";
+              fg = "#C5C9C5";
+            };
+          };
+          visual = {
+            a = {
+              bg = "NONE";
+              fg = "#9CABCA";
+              gui = "bold";
+            };
+            b = {
+              bg = "NONE";
+              fg = "#C5C9C5";
+            };
+            c = {
+              bg = "NONE";
+              fg = "#C5C9C5";
+            };
+          };
+          replace = {
+            a = {
+              bg = "NONE";
+              fg = "#E46876";
+              gui = "bold";
+            };
+            b = {
+              bg = "NONE";
+              fg = "#C5C9C5";
+            };
+            c = {
+              bg = "NONE";
+              fg = "#C5C9C5";
+            };
+          };
+          inactive = {
+            a = {
+              bg = "NONE";
+              fg = "#8992A7";
+            };
+            b = {
+              bg = "NONE";
+              fg = "#8992A7";
+            };
+            c = {
+              bg = "NONE";
+              fg = "#8992A7";
+            };
+          };
+        };
         ignore_focus = [ "neo-tree" ];
         globalstatus = true; # have a single statusline at bottom of neovim instead of one for every window
         disabled_filetypes = {
