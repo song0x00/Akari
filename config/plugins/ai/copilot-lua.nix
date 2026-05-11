@@ -17,13 +17,15 @@ in
 
   plugins = {
     copilot-lua = {
-      enable = false;
+      enable = true;
 
       lazyLoad.settings = {
         event = [ "InsertEnter" ];
       };
 
       settings = {
+        suggestion.enabled = false;
+        panel.enabled = false;
         nes = mkIf (!config.plugins.sidekick.enable) {
           enabled = true;
           keymap = {
