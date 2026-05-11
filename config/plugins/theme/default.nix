@@ -3,7 +3,7 @@
     enable = true;
     settings = {
       theme = "dragon";
-      transparent = "true";
+      transparent = true;
     };
   };
 }
