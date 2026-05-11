@@ -36,8 +36,8 @@ in
               fg = "#C5C9C5";
             };
             y = {
-              bg = "NONE";
-              fg = "#9CABCA";
+              bg = "#2D4F67";
+              fg = "#C5C9C5";
             };
             z = {
               bg = "#2D4F67";
@@ -59,8 +59,8 @@ in
               fg = "#C5C9C5";
             };
             y = {
-              bg = "NONE";
-              fg = "#9CABCA";
+              bg = "#2D4F67";
+              fg = "#C5C9C5";
             };
             z = {
               bg = "#2D4F67";
@@ -82,8 +82,8 @@ in
               fg = "#C5C9C5";
             };
             y = {
-              bg = "NONE";
-              fg = "#9CABCA";
+              bg = "#2D4F67";
+              fg = "#C5C9C5";
             };
             z = {
               bg = "#2D4F67";
@@ -105,8 +105,8 @@ in
               fg = "#C5C9C5";
             };
             y = {
-              bg = "NONE";
-              fg = "#9CABCA";
+              bg = "#2D4F67";
+              fg = "#C5C9C5";
             };
             z = {
               bg = "#2D4F67";
