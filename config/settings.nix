@@ -106,7 +106,20 @@
     };
 
     extraConfigLua = ''
-      vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+            vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+            vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+            vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
+            vim.api.nvim_set_hl(0, "SignColumn", { bg = "none" })
+            vim.api.nvim_set_hl(0, "StatusLine", { bg = "none" })
+            vim.api.nvim_set_hl(0, "StatusLineNC", { bg = "none" })
+            vim.api.nvim_set_hl(0, "TabLine", { bg = "none" })
+            vim.api.nvim_set_hl(0, "TabLineFill", { bg = "none" })
+            vim.api.nvim_set_hl(0, "TabLineSel", { bg = "none" })
+            vim.api.nvim_set_hl(0, "WinBar", { bg = "none" })
+            vim.api.nvim_set_hl(0, "WinBarNC", { bg = "none" })
+            vim.api.nvim_set_hl(0, "NeoTreeNormal", { bg = "none" })
+            vim.api.nvim_set_hl(0, "NeoTreeNormalNC", { bg = "none" })
+            vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
       vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
       vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
       vim.api.nvim_set_hl(0, "SignColumn", { bg = "none" })
@@ -119,6 +132,14 @@
       vim.api.nvim_set_hl(0, "WinBarNC", { bg = "none" })
       vim.api.nvim_set_hl(0, "NeoTreeNormal", { bg = "none" })
       vim.api.nvim_set_hl(0, "NeoTreeNormalNC", { bg = "none" })
+      vim.api.nvim_set_hl(0, "BufferLineFill", { bg = "none" })
+            vim.api.nvim_set_hl(0, "BufferLineBackground", { bg = "none" })
+            vim.api.nvim_set_hl(0, "LineNr", { bg = "none" })
+      vim.api.nvim_set_hl(0, "LineNrAbove", { bg = "none" })
+      vim.api.nvim_set_hl(0, "LineNrBelow", { bg = "none" })
+      vim.api.nvim_set_hl(0, "CursorLineNr", { bg = "none" })
+      vim.api.nvim_set_hl(0, "FoldColumn", { bg = "none" })
+      vim.api.nvim_set_hl(0, "SignColumn", { bg = "none" })
     '';
     # extraConfigLua = ''
     #   local opt = vim.opt
