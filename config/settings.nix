@@ -105,6 +105,21 @@
 
     };
 
+    extraConfigLua = ''
+      vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+      vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+      vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
+      vim.api.nvim_set_hl(0, "SignColumn", { bg = "none" })
+      vim.api.nvim_set_hl(0, "StatusLine", { bg = "none" })
+      vim.api.nvim_set_hl(0, "StatusLineNC", { bg = "none" })
+      vim.api.nvim_set_hl(0, "TabLine", { bg = "none" })
+      vim.api.nvim_set_hl(0, "TabLineFill", { bg = "none" })
+      vim.api.nvim_set_hl(0, "TabLineSel", { bg = "none" })
+      vim.api.nvim_set_hl(0, "WinBar", { bg = "none" })
+      vim.api.nvim_set_hl(0, "WinBarNC", { bg = "none" })
+      vim.api.nvim_set_hl(0, "NeoTreeNormal", { bg = "none" })
+      vim.api.nvim_set_hl(0, "NeoTreeNormalNC", { bg = "none" })
+    '';
     # extraConfigLua = ''
     #   local opt = vim.opt
     #   local g = vim.g
