@@ -26,13 +26,21 @@ in
               bg = "#DCA561";
               fg = "#0D0C0C";
               gui = "bold";
-            }; # gold
+            };
             b = {
-              bg = "NONE";
-              fg = "#C5C9C5";
+              bg = "#2D2A2E";
+              fg = "#9CABCA";
             };
             c = {
               bg = "NONE";
+              fg = "#C5C9C5";
+            };
+            y = {
+              bg = "NONE";
+              fg = "#9CABCA";
+            };
+            z = {
+              bg = "#2D4F67";
               fg = "#C5C9C5";
             };
           };
@@ -41,13 +49,21 @@ in
               bg = "#7AA89F";
               fg = "#0D0C0C";
               gui = "bold";
-            }; # aqua
+            };
             b = {
-              bg = "NONE";
-              fg = "#C5C9C5";
+              bg = "#2D2A2E";
+              fg = "#9CABCA";
             };
             c = {
               bg = "NONE";
+              fg = "#C5C9C5";
+            };
+            y = {
+              bg = "NONE";
+              fg = "#9CABCA";
+            };
+            z = {
+              bg = "#2D4F67";
               fg = "#C5C9C5";
             };
           };
@@ -56,13 +72,21 @@ in
               bg = "#9CABCA";
               fg = "#0D0C0C";
               gui = "bold";
-            }; # blue
+            };
             b = {
-              bg = "NONE";
-              fg = "#C5C9C5";
+              bg = "#2D2A2E";
+              fg = "#9CABCA";
             };
             c = {
               bg = "NONE";
+              fg = "#C5C9C5";
+            };
+            y = {
+              bg = "NONE";
+              fg = "#9CABCA";
+            };
+            z = {
+              bg = "#2D4F67";
               fg = "#C5C9C5";
             };
           };
@@ -71,13 +95,21 @@ in
               bg = "#E46876";
               fg = "#0D0C0C";
               gui = "bold";
-            }; # red
+            };
             b = {
-              bg = "NONE";
-              fg = "#C5C9C5";
+              bg = "#2D2A2E";
+              fg = "#9CABCA";
             };
             c = {
               bg = "NONE";
+              fg = "#C5C9C5";
+            };
+            y = {
+              bg = "NONE";
+              fg = "#9CABCA";
+            };
+            z = {
+              bg = "#2D4F67";
               fg = "#C5C9C5";
             };
           };
@@ -91,6 +123,14 @@ in
               fg = "#8992A7";
             };
             c = {
+              bg = "NONE";
+              fg = "#8992A7";
+            };
+            y = {
+              bg = "NONE";
+              fg = "#8992A7";
+            };
+            z = {
               bg = "NONE";
               fg = "#8992A7";
             };
