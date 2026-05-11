@@ -17,7 +17,7 @@ in
 
   plugins = {
     copilot-lua = {
-      enable = true;
+      enable = false;
 
       lazyLoad.settings = {
         event = [ "InsertEnter" ];
