@@ -8,7 +8,13 @@ let
   inherit (lib) optionals mkIf;
 in
 {
-  extraPlugins = [ ];
+
+  extraPlugins = optionals config.plugins.copilot-lua.enable (
+    with pkgs.vimPlugins;
+    optionals config.plugins.lualine.enable [
+      copilot-lualine
+    ]
+  );
 
   plugins = {
     copilot-lua = {
