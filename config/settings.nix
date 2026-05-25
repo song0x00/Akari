@@ -26,7 +26,8 @@
       lazyredraw = false; # Breaks noice plugin
       synmaxcol = 240; # Disable syntax highlighting for long lines
       timeoutlen = 500; # Key sequence timeout (ms)
-      # timeoutlen = 250;
+      clipboard = "unnamedplus";
+      # timeoutlen = 250;test
 
       # UI & Appearance
       ## Enable relative line numbers
