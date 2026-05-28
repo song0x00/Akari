@@ -44,23 +44,14 @@
       qmlls.enable = pkgs.stdenv.hostPlatform.isLinux;
       sqls.enable = true;
       taplo.enable = true;
-      nixd = {
-        enable = true;
-        config = {
-          settings.nixd = {
-            nixpkgs.expr = "import <nixpkgs> {}";
-            formatting.command = [ "nixfmt" ];
-          };
-        };
-      };
+      nixd.enable = true;
     };
-
-    # keymaps.lspBuf = {
-    #   "<c-k>" = "signature_help";
-    #   "gi" = "implementation";
-    # };
   };
 
+  # keymaps.lspBuf = {
+  #   "<c-k>" = "signature_help";
+  #   "gi" = "implementation";
+  # };
   keymapsOnEvents.LspAttach = [
     # Diagnostic keymaps
     {
