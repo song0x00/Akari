@@ -85,5 +85,6 @@
     ./util/package-info.nix
     ./util/refactoring.nix
     ./util/todo-comments.nix
+    ./util/presence.nix
   ];
 }
