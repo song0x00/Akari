@@ -1,5 +1,5 @@
 {
-  plugins.presence-nvim = {
+  plugins.presence = {
     enable = true;
     settings = {
       auto_update = true;
